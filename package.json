@@ -1,0 +1,28 @@
+{
+  "name": "sha1-digest",
+  "version": "0.0.1",
+  "description": "A simple, cross-platform streaming sha1 digest.",
+  "main": "sha1.js",
+  "browser": {
+    "./sha1.js": "./sha1-browser.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creationix/sha1-digest.git"
+  },
+  "keywords": [
+    "sha1",
+    "jsgit",
+    "git",
+    "digest",
+    "browser"
+  ],
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creationix/sha1-digest/issues"
+  }
+}
